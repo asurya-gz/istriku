@@ -5,7 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Halaman Utama</title>
-    <link rel="stylesheet" href="page/style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 600vh;
+        width: 100%;
+      }
+
+      .ukuran {
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .kesatu {
+        background-image: url(img/page/lima.PNG);
+      }
+      .kedua {
+        background-image: url(img/page/dua.PNG);
+      }
+      .ketiga {
+        background-image: url(img/page/satu.PNG);
+      }
+      .keempat {
+        background-image: url(img/page/empat.PNG);
+      }
+      .kelima {
+        background-image: url(img/page/tiga.PNG);
+      }
+      .keenam {
+        background-image: url(img/page/enam.PNG);
+      }
+
+      .ukuran > * {
+        transform: translateY(50%);
+      }
+      .ukuran > *:last-child {
+        transform: translateY(100%);
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body>
     <audio id="music" src="img/page/musicLatar.mp3" loop></audio>
