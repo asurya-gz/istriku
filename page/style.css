@@ -20,22 +20,22 @@ body {
 }
 
 .kesatu {
-  background-image: url(img/page/lima.PNG);
+  background-image: url(/img/page/lima.PNG);
 }
 .kedua {
-  background-image: url(img/page/dua.PNG);
+  background-image: url(/img/page/dua.PNG);
 }
 .ketiga {
-  background-image: url(img/page/satu.PNG);
+  background-image: url(/img/page/satu.PNG);
 }
 .keempat {
-  background-image: url(img/page/empat.PNG);
+  background-image: url(/img/page/empat.PNG);
 }
 .kelima {
-  background-image: url(img/page/tiga.PNG);
+  background-image: url(/img/page/tiga.PNG);
 }
 .keenam {
-  background-image: url(img/page/enam.PNG);
+  background-image: url(/img/page/enam.PNG);
 }
 
 .ukuran > * {
